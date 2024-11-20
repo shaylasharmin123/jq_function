@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="änimation">
+	<meta name="keywords" content="änimation">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="7 days">
+	<meta name="author" content="Shayla Sharmin">
+
+	<title>jq_function</title>
+
+	<!--icons link-->
+	<link rel="stylesheet" href="css/bootstrap-icons.css">
+
+	<!--css links-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+		
+</head>
+<body>
+
+	<div class="container mb-5"><hr>
+		<!-- exmple 1: -->
+		<h2>Lorem ipsum dolor, sit amet</h2>
+
+		<!-- exmple 2: --><hr>
+		<h2>click the button to show alert</h2>
+		<button type="text" class="btn btn-dark" id="alert1">show alert</button>
+
+		<!-- exmple 3:show/hide --><hr>
+		<h2>click the button to show hide the text </h2>
+		<button type="text" class="btn btn-dark" id="btn_1">show text</button>
+		<button type="text" class="btn btn-dark" id="btn_2">hide text</button>
+		<button type="text" class="btn btn-dark" id="btn_3">Toggle</button>
+		<h3>Lorem ipsum dolor sit amet.</h3>
+
+		<!-- exmple 4:fade in/fade out --><hr>
+		<h2>click the button to show hide the text </h2>
+		<button type="text" class="btn btn-dark" id="btn_4">fade in</button>
+		<button type="text" class="btn btn-dark" id="btn_5">fade out</button>
+		<button type="text" class="btn btn-dark" id="btn_6">fadeToggle</button>
+		<h4>Lorem ipsum dolor.</h4>
+
+		<!-- exmple 5:fade in/fade out --><hr>
+		<h2>click the button to show hide the text </h2>
+		<button type="text" class="btn btn-dark" id="btn_7">fade in</button>
+		<button type="text" class="btn btn-dark" id="btn_8">fade out</button>
+		<button type="text" class="btn btn-dark" id="btn_9">fadeToggle</button>
+		<h5>Lorem ipsum dolor sit amet.</h5>
+
+		<!-- exmple 6:fade in10out in mouseover event --><hr>
+		<h2>click the button to show hide the text </h2>
+		<button type="text" class="btn btn-dark" id="btn_10">fade in</button>
+		<button type="text" class="btn btn-dark" id="btn_11">fade out</button>
+		<button type="text" class="btn btn-dark" id="btn_12">fadeToggle</button>
+		<h6>Lorem ipsum dolor sit amet.</h6>
+
+		<!--example 7: slide up/down --><hr>
+		<h2>click the button to slide down the text </h2>
+		<h1 id="s1">Click to slide down panel</h1>
+		<p id="s2">Hello world! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ut sapiente nam aut nihil soluta.</p>
+
+		<!--example 8: slide up/down --><hr>
+		<h2>click the button to slide up the text </h2>
+		<h1 id="s3">Click to slide up panel</h1>
+		<p id="s4">Hello world! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ut sapiente nam aut nihil soluta.</p>
+
+		<!--example 9: slide toggle--><hr>
+		<h2>click the button to slide up the text </h2>
+		<h1 id="s5">Click to slide up panel</h1>
+		<p id="s6">Hello world! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ut sapiente nam aut nihil soluta.</p>
+
+		<!--example 10: after --><hr>
+		<button type="text" class="btn btn-dark" id="btn_13">Insert content after each p element</button>
+
+		<p id="p1">This is a paragraph.</p>
+
+		<p id="p2">This is another paragraph.</p>
+
+		<!--example 11: animation --><hr>
+		<div class="animation">
+			<button type="text" class="btn btn-dark" id="btn_14">Start Animation</button>
+
+			<p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+			<div class="box"></div>
+		</div>
+
+		<!--example 12: stop() --><hr>
+		<button type="text" class="btn btn-dark" id="btn_15">Stop sliding</button>
+
+		<div id="st1">Click to slide down panel</div>
+		<div id="st2">Hello world!</div>
+
+		<!--example 13: hide() --><hr>
+		<button type="text" class="btn btn-dark" id="btn_16">Hide</button>
+
+		<p id="p3">This is a paragraph with little content.</p>
+
+		<!--example 14: chaining --><hr>
+		<p id="p4">jQuery is fun!!</p>
+		<button type="text" class="btn btn-dark" id="btn_17">Hide</button>
+
+		<!--example 15: attr() method --><hr>
+		<p><a href="https://www.w3schools.com" id="w3s">W3Schools.com</a></p>
+
+		<button type="text" class="btn btn-dark" id="btn_18">Show href Value</button>
+
+		<!--example 16: set() method --><hr>
+		<p id="p5">This is a paragraph.</p>
+		<p id="p6">This is another paragraph.</p>
+
+		<p>Input field: <input type="text" id="p7" value="Mickey Mouse"></p>
+
+		<button type="text" class="btn btn-dark" id="btn_19">Set Text</button>
+		<button type="text" class="btn btn-dark" id="btn_20">Set HTML</button>
+		<button type="text" class="btn btn-dark" id="btn_21">Set Value</button>
+		
+		<!--example 17: append() method --><hr>
+		<p id="p8">This is a paragraph.</p>
+		<ol id="ol1">
+		  <li>List item 1</li>
+		  <li>List item 2</li>
+		  <li>List item 3</li>
+		</ol>
+
+		<button type="text" class="btn btn-dark" id="btn_22">Append text</button>
+		<button type="text" class="btn btn-dark" id="btn_23">Append list items</button>
+
+		<!--example 18: prepend() method --><hr>
+		<p id="p9">This is a paragraph.</p>
+		<p id="p9">This is another paragraph.</p>
+
+		<ol id="ol2">
+		  <li>List item 1</li>
+		  <li>List item 2</li>
+		  <li>List item 3</li>
+		</ol>
+
+		<button type="text" class="btn btn-dark" id="btn_24">Prepend text</button>
+		<button type="text" class="btn btn-dark" id="btn_25">Prepend list item</button>
+
+		<!--example 19: remove() method --><hr>
+		<div id="div1">
+
+			This is some text in the div.
+			<p>This is a paragraph in the div.</p>
+			<p>This is another paragraph in the div.</p>
+
+		</div>
+		<br>
+		<button type="text" class="btn btn-dark" id="btn_26">Remove div element</button>
+
+		<!--example 20: empty() method --><hr>
+		<div id="div2">
+
+			This is some text in the div.
+			<p>This is a paragraph in the div.</p>
+			<p>This is another paragraph in the div.</p>
+
+		</div>
+		<br>
+
+		<button type="text" class="btn btn-dark" id="btn_27">Empty the div element</button>
+
+		<!--example 21: addClass() method --><hr>
+		<h1 id="head1">Heading 1</h1>
+		<h2 id="head2">Heading 2</h2>
+
+		<p id="p10">This is a paragraph.</p>
+		<p id="p10">This is another paragraph.</p>
+
+		<div id="div3">This is some important text!</div><br>
+
+		<button type="text" class="btn btn-dark" id="btn_28">Add classes to elements</button>
+
+		<!--example 22: addClass() method --><hr>
+		<h1 id="head3">Heading 1</h1>
+		<button type="text" class="btn btn-dark" id="btn_29">Add classes to elements</button>
+
+		<!--example 23: removeClass() method --><hr>
+		<h1 class="green r1">Heading 1</h1>
+		<h2 class="green r2">Heading 2</h2>
+
+		<p class="green r3">This is a paragraph.</p>
+		<p>This is another paragraph.</p>
+
+		<button type="text" class="btn btn-dark" id="btn_30">Remove class from elements</button>
+
+		<!--example 24: toggleClass() method --><hr>
+		<p id="p11">This is a paragraph.</p>
+		<button type="text" class="btn btn-dark" id="btn_31">Toggle class</button>
+
+		<!--example 25: toggleClass() method --><hr>
+		<p id="p12">This is another paragraph.</p>
+		<button type="text" class="btn btn-dark" id="btn_32">Toggle class</button>
+
+		<!--example 26:css() Method --><hr>
+		<p id="p13">This is a paragraph.</p>
+		<button type="text" class="btn btn-dark" id="btn_33">Return background-color of p</button>
+
+		<!--example 27:css() Method --><hr>
+		<h2>This is a heading</h2>
+
+		<p id="p14">This is a paragraph.</p>
+
+		<button type="text" class="btn btn-dark" id="btn_34">Set background-color of p</button>
+
+		<!--example 28:css() Method --><hr>
+		<p  id="p15">This is a paragraph.</p>
+
+		<button type="text" class="btn btn-dark" id="btn_35">Set multiple styles for p</button>
+
+		<!--example 29:dimension() Method --><hr>
+		<div id="div4"></div>
+		<br>
+		<button type="text" class="btn btn-dark" id="btn_36">Display dimensions of div</button>
+		<p>width() - returns the width of an element.</p>
+		<p>height() - returns the height of an element.</p>
+
+		<!--example 30:dimension() Method --><hr>
+		<div id="div5"></div>
+		<br>
+		<button type="text" class="btn btn-dark" id="btn_37">Display dimensions of div</button>
+		<p>innerWidth() - returns the width of an element (includes padding).</p>
+		<p>innerHeight() - returns the height of an element (includes padding).</p>
+
+		<!--example 31:dimension() Method --><hr>
+		<div id="div6"></div>
+		<br>
+
+		<button type="text" class="btn btn-dark" id="btn_38">Resize div</button>
+
+		<!--example 32:dimension() Method --><hr>
+		<div id="div7"></div>
+		<br>
+
+		<button type="text" class="btn btn-dark" id="btn_39">Resize div</button>
+
+		<!--example 33:event() Method --><hr>
+		<p id="p16">If you click on me, I will disappear.</p>
+		<p id="p17">Click me away!</p>
+
+		<!--example 34:event() Method --><hr>
+		<p id="p18">If you click on me, I will disappear.</p>
+		<p id="p19">Click me away!</p>
+
+		<!--example 35:mouseenter() Method --><hr>
+		<p id="p20">Enter this paragraph.</p>
+
+		<!--example 36:mouseleave() Method --><hr>
+		<p id="p21">Enter this another paragraph.</p>
+
+		<!--example 37:mousedown() Method --><hr>
+		<p id="p22">This is a paragraph.</p>
+
+		<!--example 38:mouseup() Method --><hr>
+		<p id="p23">This is a paragraph.</p>
+
+		<!--example 39:focus() Method --><hr>
+		Name: <input type="text" name="fullname"><br>
+		Email: <input type="text" name="email">
+
+		<!--example 40:hide(), show() Method --><hr>
+		<p id="p24">If you click on the "Hide" button, I will disappear.</p>
+
+		<button  type="text" class="btn btn-dark" id="btn_40">Hide</button>
+		<button  type="text" class="btn btn-dark" id="btn_41">Show</button>
+
+		<!--example 41:hide()Method --><hr>
+		<button  type="text" class="btn btn-dark" id="btn_42">Hide</button>
+
+		<p id="p25">This is a paragraph with little content.</p>
+		<p id="p26">This is another small paragraph.</p>
+
+		<!--example 42:toggle()Method --><hr>
+		<button  type="text" class="btn btn-dark" id="btn_43">Toggle between hiding and showing the paragraphs</button>
+
+		<p id="p27">This is a paragraph with little content.</p>
+		<p id="p28">This is another small paragraph.</p>
+
+		<!--example 43:fadeOut()Method --><hr>
+		<p id="p29">Demonstrate fadeOut() with different parameters.</p>
+
+		<button  type="text" class="btn btn-dark" id="btn_44">Click to fade out boxes</button><br><br>
+
+		<div id="div8"></div><br>
+		<div id="div9"></div><br>
+		<div id="div10"></div>
+
+		<!--example 44:fadetoggle()Method --><hr>
+		<p id="p30">Demonstrate fadetoggle() with different parameters.</p>
+
+		<button  type="text" class="btn btn-dark" id="btn_45">Click to fade out boxes</button><br><br>
+
+		<div id="div11"></div><br>
+		<div id="div12"></div><br>
+		<div id="div13"></div>
+
+		<!--example 45:fadeto()Method --><hr>
+		<p id="p31">Demonstrate fadeto() with different parameters.</p>
+
+		<button type="text" class="btn btn-dark" id="btn_46">Click to fade out boxes</button><br><br>
+
+		<div id="div14"></div><br>
+		<div id="div15"></div><br>
+		<div id="div16"></div>
+
+		<!--example 46:animation()Method --><hr>
+		<div class="animation2">
+			<button type="text" class="btn btn-dark" id="btn_47">Start Animation</button>
+
+			<p id="p32">By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+			<div id="div17"></div>
+
+		</div>
+		<!--example 47:animation()Method --><hr>
+		<div class="animation3">
+			<p>Click the button multiple times to toggle the animation.</p>
+
+			<button type="text" class="btn btn-dark" id="btn_48">Start Animation</button>
+
+			<p id="p33">By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+			<div id="div18"></div>
+		</div>
+
+		<!--example 48:animation()Method --><hr>
+		<div class="animation4">
+			<p>Click the button multiple times to toggle the animation.</p>
+
+			<button type="text" class="btn btn-dark" id="btn_49">Start Animation</button>
+
+			<p id="p34">By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+			<div id="div19">hello</div>
+		</div>
+		<!--example 49:callback()Method --><hr>
+		<button type="text" class="btn btn-dark" id="btn_50">Hide</button>
+
+		<p id="p35">This is a paragraph with little content.This is a paragraph with little content.</p>
+		
+		<!--example 50:chaining()Method --><hr>
+		<p id="p36">jQuery is fun!!</p>
+
+		<button  type="text" class="btn btn-dark" id="btn_51">Click me</button>
+
+		
+
+	</div>
+	
+	<!--js links-->
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,225 @@
+/*slide down*/
+#s1, #s2 {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#s2 {
+  padding: 50px;
+}
+/*slide up*/
+#s3, #s4 {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#s4 {
+  padding: 50px;
+  display: none;
+}
+/*slide toggle*/
+#s5, #s6 {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#s6 {
+  padding: 50px;
+  display: none;
+}
+/*example 11:*/
+.animation{
+  height: 250px;
+}
+.box{
+  background:#98bf21;
+  height:100px;
+  width:100px;
+  position: absolute;
+}
+/*example 12:*/
+#st1, #st2 {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #555;
+  color: white;
+  border: solid 1px #666;
+  border-radius: 3px;
+}
+#st2 {
+  padding: 50px;
+  display: none;
+}
+/*example 19*/
+#div1{
+  height:100px;
+  width:300px;
+  border:1px solid black;
+  background-color:yellow;
+}
+/*example 20*/
+#div2{
+  height:100px;
+  width:300px;
+  border:1px solid black;
+  background-color:yellow;
+}
+/*example 21*/
+.important {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.blue {
+  color: blue;
+ }
+ /*example 22*/
+ .red{
+  color: red;
+ } 
+  /*example 23*/
+ .green{
+  color: green;
+ } 
+  /*example 24*/
+ .yellow{
+  color: yellow;
+ } 
+  /*example 25*/
+ .pink{
+  color: pink;
+ }
+  /*example 26*/
+ #p13{
+  background-color:#ff0000;
+ }
+/*example 27*/
+ #p14{
+  background-color:#00ff00;
+ }
+/*example 28*/
+ #p15{
+  background-color:#0000ff;
+ }
+/*example 29*/
+ #div4{
+  height: 100px;
+  width: 300px;
+  padding: 10px;
+  margin: 3px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
+/*example 30*/
+ #div5{
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  margin: 3px;
+  border: 1px solid blue;
+  background-color: green;
+}
+
+/*example 31*/
+ #div6{
+  height: 100px;
+  width: 300px;
+  padding: 10px;
+  margin: 3px;
+  border: 1px solid blue;
+  background-color: lightblue;
+}
+/*example 32*/
+ #div7{
+  height: 100px;
+  width: 300px;
+  padding: 10px;
+  margin: 3px;
+  border: 1px solid blue;
+  background-color: red;
+}
+/*example 33*/
+ #div8{
+    width:80px;
+    height:80px;
+    background-color:red;
+ }
+  #div9{
+    width:80px;
+    height:80px;
+    background-color:green;
+ }
+  #div10{
+    width:80px;
+    height:80px;
+    background-color:yellow;
+ }
+ /*example 34*/
+ #div11{
+    width:100px;
+    height:100px;
+    background-color:red;
+ }
+  #div12{
+    width:100px;
+    height:100px;
+    background-color:green;
+ }
+  #div13{
+    width:100px;
+    height:100px;
+    background-color:yellow;
+ }
+  /*example 35*/
+ #div14{
+    width:100px;
+    height:100px;
+    background-color:blue;
+ }
+  #div15{
+    width:100px;
+    height:100px;
+    background-color:salmon;
+ }
+  #div16{
+    width:100px;
+    height:100px;
+    background-color:yellow;
+ }
+  /*example 36*/
+  .animation2{
+    height: 500px;
+  }
+ #div17{
+    background:#98bf21;
+    height:100px;
+    width:100px;
+    position:absolute;
+ }
+   /*example 37*/
+  .animation3{
+    height: 300px;
+  }
+ #div18{
+    background:greenyellow;
+    height:100px;
+    width:100px;
+    position:absolute;
+ }
+    /*example 48*/
+  .animation4{
+    height: 400px;
+  }
+ #div19{
+    background:yellow;
+    height:100px;
+    width:100px;
+    position:absolute;
+ }
